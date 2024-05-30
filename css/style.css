@@ -1,0 +1,51 @@
+/*  ==========================================================================
+    Helper classes
+    ==========================================================================  */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    list-style-type: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* My Custom CSS */
+
+.sr-position-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+}
+
+.sr-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sr-section-padding {
+    padding: 100px 0px;
+}
+
+/*  ==========================================================================
+    Helper classes
+    ==========================================================================  */
+
